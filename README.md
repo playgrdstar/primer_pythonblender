@@ -1,3 +1,3 @@
-# Meet Blobby in p5.js 
+# How to tween in p5.js
 
-p5.js code to draw blobs
+Mashing up p5.js and GSAP to tween fishes in a pond.
