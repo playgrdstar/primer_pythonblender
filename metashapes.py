@@ -67,7 +67,7 @@ scene = bpy.context.scene
 
 mball  = bpy.data.metaballs.new('MetaBall')
 obj = bpy.data.objects.new('MetaBallObj', mball)
-scene.objects.link(obj)
+bpy.context.collection.objects.link(obj)
 
 mball.resolution = 0.2
 mball.render_resolution = 0.02
